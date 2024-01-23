@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #016EA5;
+}
+
+.container{
+    /* background-color: rebeccapurple; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inicio{
+    position: relative;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(2, 21, 56);
+    color: white;
+    margin-bottom: 50px;
+}
+
+.inicio:hover{
+    background-color: rgb(13, 40, 90);
+}
+
+
+
+.card{
+    position: relative;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px; 
+    box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.2);
+}
+
+.titulo{
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    color: #09115a;
+}
+
+.imcInfo{
+    /* background-color: red; */
+    height: 100%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.imcInfo h1{
+
+}
+
+.imcInfo h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.imcInfo h3{
+
+}
+
+.imcInfo h3{
+
+}
+
+.imcData{
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0px 50px;
+    row-gap: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.imcData input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 6px 5px -2px rgba(0,0,0,0.15);
+}
+
+.imcData button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(2, 21, 56);
+    color: white;
+}
+
+.imcData button:hover{
+    background-color: rgb(13, 40, 90);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 80%;
+        min-height: 400px;
+        height: 350px;
+        flex-direction: column;
+        padding: 20px 5px;
+    }
+}

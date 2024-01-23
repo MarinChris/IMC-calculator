@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+        <button onclick="incializar();" class="inicio">Iniciar</button>
+        <div class="card">
+            <h1 class="titulo">BMI Calculator</h1>
+            <div class="imcInfo">
+                <h2>Welcome</h2>
+                <h3></h3>
+                <p></p>
+            </div>
+            <div class="imcData">
+                <input type="number" class="entrada" id="peso" placeholder="Weight (kg)">
+                <input type="number" class="entrada" id="altura" placeholder="Height (cm)">
+                <button onclick="calcularIMC();" id="calcular">Calculate</button>
+                <button onclick="limpiar();" id="limpiar">Clear</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="/app.js"></script>
+</html>
